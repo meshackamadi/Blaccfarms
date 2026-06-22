@@ -16,9 +16,7 @@ export default {
         black: '#2D3748',
         blacc: '#2D3748',  // Added blacc color matching black
       },
-      backgroundImage: {
-        farmlady: "url('/farmlady.jpg')",
-      },
+      // backgroundImage utilities removed for runtime-resolved images
     },
   },
   plugins: [],

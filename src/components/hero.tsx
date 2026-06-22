@@ -4,7 +4,14 @@ import { FaArrowRight} from "react-icons/fa";
 
 const Hero: React.FC = () => {
     return (
-        <section className="relative min-h-screen flex items-center justify-center pt-16" style={{ backgroundImage: `url('/broiler.webp')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <section
+            className="relative min-h-screen flex items-center justify-center pt-16"
+            style={{
+                backgroundImage: `url(${import.meta.env.BASE_URL}broiler.webp)`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+            }}
+        >
             <div className="absolute inset-0 z-0 overflow-hidden">
                 <motion.div
                     className="absolute top-40 left-10 w-40 h-40 bg-sage/10 rounded-full blur-3xl"

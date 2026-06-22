@@ -64,7 +64,7 @@ const Feature: React.FC = () => {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/farmlady.jpg"
+                src={`${import.meta.env.BASE_URL}farmlady.jpg`}
                 alt="Blacc farming"
                 className="w-full h-auto object-cover max-h-[500px] md:max-h-[400px] lg:max-h-[500px]"
               />

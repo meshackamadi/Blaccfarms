@@ -61,7 +61,10 @@ const Video: React.FC = () => {
               ></iframe>
             ) : (
               <>
-                <div className="absolute inset-0 bg-cover bg-center bg-farmlady z-1"></div>
+                <div
+                  className="absolute inset-0 bg-cover bg-center z-1"
+                  style={{ backgroundImage: `url(${import.meta.env.BASE_URL}farmlady.jpg)` }}
+                ></div>
                 <div className="absolute inset-0 bg-linear-to-b from-black/20 via-black/40 to-black/60 group-hover:via-black/50 transition-all duration-300 z-5"></div>
 
                 {/* Play Button */}
