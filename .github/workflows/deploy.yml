@@ -10,9 +10,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      git add .github/workflows/deploy.yml
-      git commit -m "Use official Pages deploy actions; give contents write permission"
-      git push origin main      contents: write
+      contents: write
       pages: write
       id-token: write
 
